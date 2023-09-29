@@ -29,9 +29,18 @@
                border-spacing: 5px;
                border-collapse: separate;
             }
-            th{
-               background-color: lightgrey;
+            colgroup{
+               background-color: #CCCCCC;
                border: solid 1px #000000;
+               width: 25%;
+            }
+            caption{
+               color: #003300;
+            }
+            .days{
+               background-color: #99FF66;
+               border: solid 1px #000000;
+               width: 15%;
             }
 
          </style>
@@ -40,13 +49,14 @@
          <div >
            <table class="sched">
                <caption>Class Schedule</caption>
+               <colgroup span="1">
                <tr>
                   <th>Courses</th>
-                  <td>Monday</td>
-                  <td>Tuesday</td>
-                  <td>Wednesday</td>
-                  <td>Thursday</td>
-                  <td>Friday</td>
+                  <td class="days">Monday</td>
+                  <td class="days">Tuesday</td>
+                  <td class="days">Wednesday</td>
+                  <td class="days">Thursday</td>
+                  <td class="days">Friday</td>
                </tr>
                <tr>
                   <th>INFO 1120</th>
