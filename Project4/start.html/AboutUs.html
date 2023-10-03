@@ -10,21 +10,6 @@
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: medium;
             }
-            h1{
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            h2{
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            h3{
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            p{
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            blockquote{
-                font-family: Arial, Helvetica, sans-serif;
-            }
             a:link{
                 color:#565122;
             }
@@ -34,10 +19,15 @@
             a:hover{
                 color:#22200F;
             }
+            .tablehead{
+                padding-bottom: 10px;
+                float: bottom;
+            }
             .imgRight{
                 float: right;
                 padding-left: 10px;
                 padding-bottom: 10px;
+                padding-top: 10px
             }
             .imgLeft{
                 float: left;
@@ -54,14 +44,14 @@
             table{
                 margin: auto;
                 width: 100%;
-                border: solid 2px #000000;
+                border: none;
                 padding: 3px;
                 border-spacing: 5px;
                 border-collapse: separate;
                 color: #22200F;
             }
             td{
-                border: solid 1px #000000;
+                border: none;
                 padding: 3px;
                 border-spacing: 5px;
                 border-collapse: separate;
@@ -70,12 +60,13 @@
         </style>
     </head>
     <body>
-        <h1 id="top">About Backyard Birds</h1>
-
-        <img src="../Images/AboutUs/iStockGeeseSm.jpg" alt="iStockGeese" class="imgRight" width="300" height="199"/>
+        <h1>About Backyard Birds</h1>
 
         <p><a href="#history">History</a> | <a href="#today">Where We Are Today</a> | <a href="#going">Where We Are Going</a> | <a href="#press">Press Releases</a></p>
 
+
+        <h2 id="tablhead">Birds</h2>
+        
         <table>
             <tr>
                 <td>Bird</td>
@@ -113,6 +104,8 @@
                 <td>2015</td>
             </tr>
         </table>
+
+        <img src="../Images/AboutUs/iStockGeeseSm.jpg" alt="iStockGeese" class="imgRight" width="300" height="199"/>
 
         <h2 id="history">History</h2>
 
