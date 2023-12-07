@@ -111,6 +111,20 @@
 	#container{
 		width: 540px;
 	}
+	#navigation, #masthead, #maincontent, #leftcolumn, #rightcolumn, #footer{
+		width: 100%;
+	}
+	#maincontent{
+		background-image: none;
+		background-color: #FFFFFF;
+	}
+	#navigation li{
+		display: block;
+		width: 100%;
+	}
+	#leftcolumn img, #column img{
+		width: 50%;
+	}
 }
 
 
@@ -118,7 +132,13 @@
 
 @media screen and (max-width: 480px){
 	#container{
-		width: 480px;
+		width: 450px;
+	}
+	#navigation, #masthead, #leftcolumn, #rightcolumn, #footer{
+		width: 100%;
+	}
+	#leftcolumn img, #rightcolumn img{
+		width: 45%;
 	}
 }
 
@@ -127,7 +147,10 @@
 
 @media screen and (max-width: 320px){
 	#container{
-		width: 320px;
+		width: 300px;
+	}
+	#leftcolumn img, #rightcolumn img{
+		width: 45%;
 	}
 }
 
